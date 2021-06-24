@@ -3,6 +3,6 @@ module.exports = {
   testEnvironment: "node",
   roots: ["<rootDir>/src"],
   collectCoverage: true,
-  collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
+  collectCoverageFrom: ["<rootDir>/src/app/**/*.ts"],
   verbose: true,
 }
